@@ -46,6 +46,8 @@ Users should be able to:
 - Decided on CSS Flex layout for this challenge
 - Took into consideration that this code would just be a component and not a stand alone page. Apllied styles to classes that could be easily copied and re-used in already established code for a page or app.
 - Need to figure out how to get the violet overlay onto the image.
+- Used letter-spacing to on the stat category text. Used rem units for this but need to consider what will happen if someone increases the font size for accessiblity. Might want to use px instead.
+-
 
 ### Continued development
 
