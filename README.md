@@ -45,15 +45,18 @@ Users should be able to:
 
 - Decided on CSS Flex layout for this challenge
 - Took into consideration that this code would just be a component and not a stand alone page. Apllied styles to classes that could be easily copied and re-used in already established code for a page or app.
-- Need to figure out how to get the violet overlay onto the image.
-- Used letter-spacing to on the stat category text. Used rem units for this but need to consider what will happen if someone increases the font size for accessiblity. Might want to use px instead.
--
+- Used letter-spacing to on the stat category text. Used rem units for this and did consider what will happen if someone increases the font size for accessiblity. Thought maybe it would be better to use a fixed px spacing unti. However the rem was so small it didn't seem to matter if I used px instead when I tested it out.
+- Getting the image with the violet overlay was not straight forward for me. First I tried to set the image as a background image and then add a color gradient over it. To get this to work I had to specify the height of the background area in px. That is not good CSS practice.
+- If the image in a `<img>` or `<picture>` div then it will take up the room it needs without me having to adjust for the height. I just need to figure out how to add the violet color. Maybe I can have a solid color background and then change the opacity of the image??
+- Used an opacity of 40% to get a violet overlay on the image. It is not the same contrast/intensity as the image in the Figma file but it is fairly close.
+- desktop size image is 540px x 446px
 
 ### Continued development
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Letter Spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
+- [Picture element](https://www.w3schools.com/html/html_images_picture.asp)
 
 ## Author
 
