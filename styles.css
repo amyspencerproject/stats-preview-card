@@ -74,6 +74,76 @@ select {
 }
 
 /* ========================= Base Styles ========================= */
+
+/* Variables */
+:root {
+  --white: hsl(0, 0%, 100%);
+  --white-trans-75: hsla(0, 0%, 100%, 0.75);
+  --white-trans-60: hsla(0, 0%, 100%, 0.6);
+  --dark-blue: hsl(233, 47%, 7%);
+  --desaturated-blue: hsl(244, 38%, 16%);
+  --violet: hsl(277, 64%, 61%);
+}
+
 body {
   font-family: "Inter", sans-serif;
+  font-size: 0.9375rem;
+  background-color: var(--dark-blue);
+}
+
+.card-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  background-color: var(--desaturated-blue);
+  border-radius: 10px;
+  margin: 5.5rem 1.5rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.card-image {
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.card-image-container {
+  border-radius: 10px 10px 0 0;
+  /* background: url(./images/image-header-mobile.jpg);
+  height: fit-content;
+  width: 100%; */
+}
+
+.stats-header {
+  color: var(--white);
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+
+.violet-highlight {
+  color: var(--violet);
+}
+
+.stats-text {
+  color: var(--white-trans-75);
+  margin: 1rem 2rem;
+}
+
+.stats-container {
+  /* display: flex; */
+}
+
+.stat {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.category {
+  text-transform: uppercase;
+  color: var(--white-trans-60);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  margin-top: 0.25rem;
+  margin-bottom: 1.5rem;
 }

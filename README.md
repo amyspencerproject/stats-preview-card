@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Github Repo URL: [QR Code Repo](https://github.com/amyspencerproject/qr-code)
-- Live Site URL: [QR Code Page](https://amyspencerproject.github.io/qr-code/)
+- Github Repo URL: [Stats Preview Card Repo](https://github.com/amyspencerproject/stats-preview-card)
+- Live Site URL: [Stats Preview Card Page](https://amyspencerproject.github.io/stats-preview-card/)
 
 ## My process
 
@@ -38,12 +38,14 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS Variables
-- CSS Grid
+- CSS Flex
 - Mobile-first workflow
 
 ### What I learned
 
--
+- Decided on CSS Flex layout for this challenge
+- Took into consideration that this code would just be a component and not a stand alone page. Apllied styles to classes that could be easily copied and re-used in already established code for a page or app.
+- Need to figure out how to get the violet overlay onto the image.
 
 ### Continued development
 
