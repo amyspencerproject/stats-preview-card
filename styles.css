@@ -102,15 +102,20 @@ body {
   margin: 5.5rem 1.5rem;
   color: var(--white);
   text-align: center;
-
   max-width: 40rem;
 }
 
 .card-image {
   border-radius: 10px 10px 0 0;
   width: 100%;
+  height: 100%;
   object-fit: fill;
-  opacity: 40%;
+  opacity: 72%;
+  mix-blend-mode: multiply;
+}
+
+picture {
+  height: 100%;
 }
 
 .card-image-container {
@@ -162,6 +167,7 @@ body {
     border-radius: 0 10px 10px 0;
     text-align: left;
     max-width: 70rem;
+    align-items: stretch;
   }
 
   .card-image-container {
@@ -181,9 +187,7 @@ body {
   }
 
   .stats-text {
-    /* margin-inline: 4rem; */
     margin-left: 4rem;
-    /* margin-right: 5rem; */
     width: 70%;
   }
 }

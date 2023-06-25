@@ -50,9 +50,17 @@ Users should be able to:
 - If the image in a `<img>` or `<picture>` div then it will take up the room it needs without me having to adjust for the height. I just need to figure out how to add the violet color. Maybe I can have a solid color background and then change the opacity of the image??
 - Used an opacity of 40% to get a violet overlay on the image. It is not the same contrast/intensity as the image in the Figma file but it is fairly close.
 - The desktop image does not cover the height of the card container between the viewport range of 960px to 1060px. The image is just shorter than what the rest of the elements are sizing at for that range. I played around with fixing the height of the card container but the image resized to be smaller during the same viewport range and then even beyond to about 1090px. I tried changing the media query for the image to 1060px but again it resized to stay small even with the taller image of 480px. Something is keeping a ratio but I do not understand this behavior.
+
   - media query and picture media query at 60rem or 960px
   - desktop size image is 540px x 446px
   - mobile size image is 654px x 480px
+
+- Reached out on FEM's Discord and got this bomber answer!
+  ![](./Screenshot-FEM-discord-help.png)
+
+  There is no way I would have found this `align-items: center` issue. I was too far down the rabbit hole. This is why it is important to work in a team!
+
+- Another FEM member told me to use `mix-blend-mode: multiply` to get much better intensity on the image overlay. Worked great!
 
 ### Continued development
 
@@ -60,6 +68,7 @@ Users should be able to:
 
 - [Letter Spacing](https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing)
 - [Picture element](https://www.w3schools.com/html/html_images_picture.asp)
+- [Mix-blend mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) - There is a way to further modify images in CSS!!
 
 ## Author
 
