@@ -49,7 +49,10 @@ Users should be able to:
 - Getting the image with the violet overlay was not straight forward for me. First I tried to set the image as a background image and then add a color gradient over it. To get this to work I had to specify the height of the background area in px. That is not good CSS practice.
 - If the image in a `<img>` or `<picture>` div then it will take up the room it needs without me having to adjust for the height. I just need to figure out how to add the violet color. Maybe I can have a solid color background and then change the opacity of the image??
 - Used an opacity of 40% to get a violet overlay on the image. It is not the same contrast/intensity as the image in the Figma file but it is fairly close.
-- desktop size image is 540px x 446px
+- The desktop image does not cover the height of the card container between the viewport range of 960px to 1060px. The image is just shorter than what the rest of the elements are sizing at for that range. I played around with fixing the height of the card container but the image resized to be smaller during the same viewport range and then even beyond to about 1090px. I tried changing the media query for the image to 1060px but again it resized to stay small even with the taller image of 480px. Something is keeping a ratio but I do not understand this behavior.
+  - media query and picture media query at 60rem or 960px
+  - desktop size image is 540px x 446px
+  - mobile size image is 654px x 480px
 
 ### Continued development
 
